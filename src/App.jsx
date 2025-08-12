@@ -1,4 +1,4 @@
-import Navbar from "./conponents/Navbar.jsx";
+import Navbar from "./components/Navbar.jsx";
 import HeroSection from "./sections/HeroSection.jsx";
 import MessageSection from "./sections/MessageSection.jsx";
 import {useGSAP} from "@gsap/react";
