@@ -105,7 +105,7 @@ const Navbar = () => {
             <nav ref={navRef}
                  className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-amber-900 text-gray-50 py-28 gap-y-10 md:w-1/2 md:left-1/2"
             >
-                <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
+                <div className="flex flex-col text-2xl gap-y-2 md:text-6xl lg:text-8xl">
                     {["home", "services", "about", "portfolio", "contact"].map((section, index) => (
                         <div key={index} ref={(el) => linkRef.current[index] = el}>
                             <Link className="hover:text-white/100 cursor-pointer transition-all duration-300"
